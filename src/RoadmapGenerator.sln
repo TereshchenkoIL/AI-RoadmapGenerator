@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadmapGenerator.DAL", "RoadmapGenerator.DAL\RoadmapGenerator.DAL.csproj", "{9758FE94-BCBC-456D-BA3E-174DE14BF013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadmapGenerator.BL", "RoadmapGenerator.BL\RoadmapGenerator.BL.csproj", "{6FFF3A65-8A27-4174-85DA-1FD62D51A637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadmapGenerator.API", "RoadmapGenerator.API\RoadmapGenerator.API.csproj", "{0D38F189-D40B-4391-A47E-C4EBE0305705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9758FE94-BCBC-456D-BA3E-174DE14BF013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9758FE94-BCBC-456D-BA3E-174DE14BF013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9758FE94-BCBC-456D-BA3E-174DE14BF013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9758FE94-BCBC-456D-BA3E-174DE14BF013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFF3A65-8A27-4174-85DA-1FD62D51A637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFF3A65-8A27-4174-85DA-1FD62D51A637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFF3A65-8A27-4174-85DA-1FD62D51A637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFF3A65-8A27-4174-85DA-1FD62D51A637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D38F189-D40B-4391-A47E-C4EBE0305705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D38F189-D40B-4391-A47E-C4EBE0305705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D38F189-D40B-4391-A47E-C4EBE0305705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D38F189-D40B-4391-A47E-C4EBE0305705}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
