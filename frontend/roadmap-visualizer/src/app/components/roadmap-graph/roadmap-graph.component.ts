@@ -30,7 +30,7 @@ export class RoadmapGraphComponent implements OnInit {
   nodes: any[] = [];
   links: any[] = [];
   userJson: string = '';
-  models: string[] = ['gpt-3.5-turbo', 'gpt-4o', 'gpt-4o-mini'];
+  models: string[] = ['gpt-3.5-turbo', 'gpt-4o', 'gpt-4o-mini', 'o3-mini'];
   selectedModel: string = this.models[0];
   isLoading = false;
 
