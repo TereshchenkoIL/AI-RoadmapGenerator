@@ -1,0 +1,31 @@
+<div class="dialog-header">
+    <span>Налаштування генерації</span>
+    <button mat-icon-button (click)="dialogRef.close()" aria-label="Закрити">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+  
+  <form (ngSubmit)="submit()" class="form-wrapper">
+    <mat-form-field appearance="outline">
+      <mat-label>JSON користувача</mat-label>
+      <textarea
+        matInput
+        rows="10"
+        [(ngModel)]="data.userJson"
+        name="userJson"
+        required
+      ></textarea>
+    </mat-form-field>
+  
+    <mat-form-field appearance="outline">
+      <mat-label>Модель</mat-label>
+      <mat-select [(ngModel)]="data.model" name="model">
+        <mat-option *ngFor="let model of data.models" [value]="model">
+          {{ model }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <button mat-raised-button color="primary" type="submit">Згенерувати</button>
+  </form>
+  

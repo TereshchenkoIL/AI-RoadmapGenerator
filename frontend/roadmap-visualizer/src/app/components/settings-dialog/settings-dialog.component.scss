@@ -1,0 +1,41 @@
+.form-section {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 20px;
+  
+    mat-form-field {
+      width: 300px; // Фіксована ширина для охайності
+    }
+  
+    button {
+      width: 300px;
+      height: 56px;
+    }
+  }
+
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  
+    span {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+
+  .dialog-header {
+    margin: 20px;
+  }

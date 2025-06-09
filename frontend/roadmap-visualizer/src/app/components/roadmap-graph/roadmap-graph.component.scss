@@ -1,0 +1,48 @@
+:host {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top-bar {
+  flex: 0 0 auto;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.graph-section {
+  position: relative;
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.chart-container {
+  height: 100%;
+  width: 100%;
+}
+
+.loader-overlay {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
